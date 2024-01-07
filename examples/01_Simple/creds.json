@@ -1,0 +1,7 @@
+{
+    "hostname": "192.168.255.1",
+    "api_key": "MYSECRETAPIKEYWASHERE==",
+    "timeout": 10,
+    "logging": ["action", "op", "uid"],
+    "verify_certificate": false
+}
