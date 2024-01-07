@@ -202,3 +202,4 @@ override.tf.json
 terraform.rc
 
 .trunk
+examples/01_Simple/terraform.tfvars

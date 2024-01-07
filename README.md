@@ -52,13 +52,13 @@ The `examples` directory contains three examples that demonstrate how to use Ter
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/cdot65/pan-terraform-configure.git
+git clone https://github.com/cdot65/panos-terraform-example.git
 ```
 
 After cloning the repository, navigate to the desired example directory:
 
 ```bash
-cd pan-terraform-configure/examples/01_Simple
+cd panos-terraform-example/examples/01_Simple
 ```
 
 ## Example 1: Simple
