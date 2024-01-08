@@ -3,7 +3,7 @@ resource "panos_ethernet_interface" "wan" {
   name       = "ethernet1/1"
   vsys       = "vsys1"
   mode       = "layer3"
-  static_ips = ["46.58.79.2/24"]
+  static_ips = ["10.42.0.2/24"]
   comment    = "WAN IP address for internet connectivity"
 
   lifecycle {
