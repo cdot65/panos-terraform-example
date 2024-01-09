@@ -1,6 +1,6 @@
 {
-    "hostname": "192.168.255.1",
-    "api_key": "MYSECRETAPIKEYWASHERE==",
+    "hostname": "192.168.255.106",
+    "api_key": "LUFRPT1uNGphZ2pIcTdIcFFYRFdOY2c5MllHd2tEVWs9bzMzZ3JCcFVFQU9FTFZCNGd3eGJkVWVab1RSUzZiU01yTGtETXlmSEZISW1VU0tJNkw3djg3a3N5amJzRlNHQg==",
     "timeout": 10,
     "logging": ["action", "op", "uid"],
     "verify_certificate": false

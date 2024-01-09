@@ -1,11 +1,11 @@
-hostname     = "192.168.255.215"
+hostname     = "192.168.255.106"
 pan_username = "terraform"
 pan_password = "paloalto#1"
 
 address_objects = {
   aus_ads_01 = {
     name        = "aus-ads-01"
-    value       = "192.168.21.2"
+    value       = "192.168.21.3"
     description = "Secondary AD server"
     tags        = ["network", "windows"]
   }

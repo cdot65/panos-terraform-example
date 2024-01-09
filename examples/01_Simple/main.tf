@@ -3,7 +3,7 @@ resource "panos_ethernet_interface" "wan" {
   name       = "ethernet1/1"
   vsys       = "vsys1"
   mode       = "layer3"
-  static_ips = ["10.42.0.2/24"]
+  static_ips = ["10.42.0.3/24"]
   comment    = "WAN IP address for internet connectivity"
 
   lifecycle {
@@ -143,7 +143,7 @@ resource "panos_address_object" "hou_pve_01" {
 resource "panos_security_policy" "example" {
   rule {
     name                  = "LAN to WAN"
-    audit_comment         = "Pushed by Terraform"
+    audit_comment         = "This is a test"
     source_zones          = [panos_zone.lan.name]
     source_addresses      = ["any"]
     source_users          = ["any"]
